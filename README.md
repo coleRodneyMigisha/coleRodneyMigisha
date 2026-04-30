@@ -2,6 +2,7 @@
 
 <!--
 **coleRodneyMigisha/coleRodneyMigisha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
 
 My name is Cole Rodney Migisha, I am a 22 year old young man based in Uganda and I have just completed my second year of my Bachelors of Science in Computer Science at Uganda Christian University<br>🔭 I’m currently working on becoming a master in python specifically for data science, machine learning and ai<br>👯 I’m looking to collaborate on system development and automations<br>🤝 I’m looking for help with automation with python, and moving forward in javascript<br>🌱 I’m currently learning python for ml, ai and automation; javascript for design and responsiveness; and java for app development<br>💬 Ask me about leetcode!<br>⚡ Fun fact, I once spent two days trying to figure out what was wrong with my code only to find out it was just a missing double quote in an initialization at the top... <br><br>My 
 
