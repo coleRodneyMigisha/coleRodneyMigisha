@@ -24,5 +24,3 @@ My name is Cole Rodney Migisha, I am a 22 year old young man based in Uganda and
 
 ---
 [![](https://komarev.com/ghpvc/?username=coleRodneyMigisha&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
