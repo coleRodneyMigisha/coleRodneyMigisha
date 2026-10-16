@@ -1,26 +1,73 @@
-## Hi there 👋
+# Hi, I'm Cole 👋
 
-<!--
-**coleRodneyMigisha/coleRodneyMigisha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+I'm a 22-year-old Computer Science student from Uganda, building steady depth in Python, with a focus on data science, machine learning, AI and automation. I care about *why* things work, and I like turning ideas into things people can actually see and use, not just notebooks.
 
-My name is Cole Rodney Migisha, I am a 22 year old young man based in Uganda and I have just completed my second year of my Bachelors of Science in Computer Science at Uganda Christian University<br>🔭 I’m currently working on becoming a master in python specifically for data science, machine learning and ai<br>👯 I’m looking to collaborate on system development and automations<br>🤝 I’m looking for help with automation with python, and moving forward in javascript<br>🌱 I’m currently learning python for ml, ai and automation; javascript for design and responsiveness; and java for app development<br>💬 Ask me about leetcode!<br>⚡ Fun fact, I once spent two days trying to figure out what was wrong with my code only to find out it was just a missing double quote in an initialization at the top... <br><br>
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cole-rodney-migisha-153aaa35a) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kingcole1205@gmail.com) 
+I'm in Year 3 of my BSc Computer Science at **Uganda Christian University (UCU), Mukono**, on the AI and Robotics track, and I'm also auditing Data Science. I'm based around Mukono, Entebbe and Kampala.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=plastic&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=plastic&logo=anaconda&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=plastic&logo=streamlit&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=plastic&logo=adobe%20illustrator&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=plastic&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=plastic&logo=adobe%20photoshop&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=plastic&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=plastic&logo=cisco&logoColor=black)
+## 📍 Right now
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=coleRodneyMigisha&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=coleRodneyMigisha&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=coleRodneyMigisha&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+- **Public Relations Manager**, Honours College, UCU
+- **Class Representative**, Computer Science, UCU
+- Previously **Web Designer** at Makerere University Innovation Pod (Feb to Sep 2024)
+- Recently **IT Intern**, Uganda Civil Aviation Authority, Entebbe (Apr to Aug 2026)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=coleRodneyMigisha&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## 🔭 What I'm working on
 
-### ✍️ Random Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+- **Data cleaning, feature engineering and classical ML:** scikit-learn, LightGBM, random forests, logistic regression
+- **Computer vision with PyTorch:** especially suspicious pose and behaviour detection in security video
+- **Data engineering habits:** pandas, DuckDB, Parquet, Airflow and ETL pipelines
+- **Reproducible projects:** clean structure and proper GitHub workflows
+- **Zindi challenges:** aiming for one a week (financial stress prediction, Bias Bounty and AirQo PM2.5 so far)
+- **Idea → working system → clean presentation**, like my terminal Wordle that became a custom-styled Streamlit app
+
+## 🤝 Collaborating and learning
+
+- Keen to collaborate on **system development and automation**
+- Happy to help with **Python automation**
+- Looking to grow in **JavaScript** (design and responsiveness) and **Java** (application development)
+- Ask me about **LeetCode** 🧩
+
+## 💻 Tech stack
+
+Python is my main language. The rest is what I use to build, ship and present.
+
+| | |
+|---|---|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E) ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) |
+| **Data & ML** | ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?logo=plotly&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FE4B4B?logo=streamlit&logoColor=white) |
+| **Web & tools** | ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61DAFB) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-000000?logo=netlify&logoColor=00C7B7) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
+| **Design** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white) ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?logo=adobeillustrator&logoColor=white) ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?logo=adobephotoshop&logoColor=white) ![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?logo=adobelightroom&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=white) |
+
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=coleRodneyMigisha&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
+  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coleRodneyMigisha&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&cache_seconds=86400" />
+</p>
+
+<p align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=coleRodneyMigisha&theme=tokyonight&hide_border=true" />
+</p>
+
+## 🏆 Trophies
+
+<p align="center">
+  <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=coleRodneyMigisha&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
+</p>
+
+## 🌐 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cole-rodney-migisha-153aaa35a)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kingcole1205@gmail.com)
+
+## ✨ A bit more about me
+
+- I'm design-conscious: clean interfaces, visual identity and clear communication matter to me as much as the code behind them.
+- My faith in Christ shapes how I work and how I treat people.
+- **Fun fact:** I once spent two days hunting a bug that turned out to be a single missing double quote at the top of the file. It's the reason I now read the first line before the stack trace. 😅
 
 ---
-[![](https://komarev.com/ghpvc/?username=coleRodneyMigisha&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=coleRodneyMigisha&style=flat-square&color=7aa2f7" />
+</p>
