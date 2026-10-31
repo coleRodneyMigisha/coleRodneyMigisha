@@ -17,7 +17,7 @@ I'm in Year 3 of my BSc Computer Science at **Uganda Christian University (UCU),
 - **Computer vision with PyTorch:** especially suspicious pose and behaviour detection in security video
 - **Data engineering habits:** pandas, DuckDB, Parquet, Airflow and ETL pipelines
 - **Reproducible projects:** clean structure and proper GitHub workflows
-- **Zindi challenges:** aiming for one a week (financial stress prediction, Bias Bounty and AirQo PM2.5 so far)
+- **Zindi challenges:** aiming for one a week (financial stress prediction and Bias Bounty so far)
 - **Idea → working system → clean presentation**, like my terminal Wordle that became a custom-styled Streamlit app
 
 ## 🤝 Collaborating and learning
