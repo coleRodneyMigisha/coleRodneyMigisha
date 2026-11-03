@@ -29,6 +29,7 @@ IGNORED_LANGUAGES = {"HTML", "TeX"}
 # Notebooks are Python; counting them as such keeps the chart honest.
 LANGUAGE_ALIASES = {"Jupyter Notebook": "Python"}
 IGNORED_REPOS = {USERNAME}
+RECENT_REPOS = 4
 
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
@@ -71,7 +72,7 @@ query($login: String!) {
                  orderBy: {field: PUSHED_AT, direction: DESC}) {
       totalCount
       nodes {
-        name isFork
+        name description url pushedAt isFork isArchived
         languages(first: 20, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name } }
         }
@@ -141,6 +142,7 @@ def summarise(user: dict, today: date) -> dict:
         "active_days": sum(1 for c in counts.values() if c > 0),
         "weekly": weekly,
         "languages": sorted(languages.items(), key=lambda kv: kv[1], reverse=True),
+        "recent": [r for r in repos if not r["isArchived"]][:RECENT_REPOS],
     }
 
 
@@ -241,6 +243,16 @@ def languages_svg(stats: dict, theme: dict) -> str:
 
 # ------------------------------------------------------------------- README
 
+def recent_block(stats: dict) -> str:
+    rows = []
+    for repo in stats["recent"]:
+        pushed = datetime.fromisoformat(repo["pushedAt"].replace("Z", "+00:00")).astimezone(TZ)
+        about = repo.get("description") or ""
+        about = f" · {about.replace('|', '/').strip()}" if about else ""
+        rows.append(f"- [`{repo['name']}`]({repo['url']}){about} <sub>{pushed:%-d %b %Y}</sub>")
+    return "\n".join(rows)
+
+
 def age_on(today: date) -> int:
     return today.year - BIRTHDAY.year - ((today.month, today.day) < (BIRTHDAY.month, BIRTHDAY.day))
 
@@ -266,6 +278,7 @@ def main() -> None:
 
     text = README.read_text(encoding="utf-8")
     text = replace_block(text, "age", str(age_on(today)), inline=True)
+    text = replace_block(text, "recent", recent_block(stats))
     text = replace_block(text, "updated", f"{today:%-d %B %Y}", inline=True)
     README.write_text(text, encoding="utf-8")
     print(f"Refreshed: {stats['contributions']} contributions, {stats['repos']} repos, streak {stats['streak']}.")

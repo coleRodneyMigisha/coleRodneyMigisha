@@ -45,6 +45,15 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 - **National mathematics camp invite**, where the country's top 100 students were tested to pick a team of 15
 - **Africa's Talking hackathon**, where my team built NetDoctor, a network diagnostics platform. I owned testing and quality.
 
+## Recently active
+
+<!-- recent:start -->
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>3 Nov 2026</sub>
+- [`spotify-clone`](https://github.com/coleRodneyMigisha/spotify-clone) · Encore: a Spotify-style music player streaming full-length songs from Audius <sub>3 Nov 2026</sub>
+- [`snakeGame`](https://github.com/coleRodneyMigisha/snakeGame) · Snake agent trained with Double DQN reinforcement learning <sub>3 Nov 2026</sub>
+- [`intern-check-in`](https://github.com/coleRodneyMigisha/intern-check-in) <sub>2 Nov 2026</sub>
+<!-- recent:end -->
+
 ## Stack
 
 **Languages**<br>
@@ -101,4 +110,4 @@ My faith in Christ shapes how I work and how I treat people. I also once spent t
 
 ---
 
-<sub>Age and activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>
