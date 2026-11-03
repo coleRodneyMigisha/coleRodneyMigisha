@@ -26,13 +26,6 @@ jobs:
       - name: Check out profile
         uses: actions/checkout@v4
 
-      - name: Check out portfolio content
-        uses: actions/checkout@v4
-        with:
-          repository: coleRodneyMigisha/portfolio
-          path: _portfolio
-          sparse-checkout: content
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -43,7 +36,7 @@ jobs:
           # Set a PROFILE_TOKEN secret (a fine-grained token with read access) to
           # also count private contributions. Otherwise only public work is counted.
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python3 scripts/update.py --portfolio _portfolio
+        run: python3 scripts/update.py
 
       - name: Commit if anything changed
         run: |

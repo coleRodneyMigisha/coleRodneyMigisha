@@ -45,43 +45,6 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 - **National mathematics camp invite**, where the country's top 100 students were tested to pick a team of 15
 - **Africa's Talking hackathon**, where my team built NetDoctor, a network diagnostics platform. I owned testing and quality.
 
-## Research
-
-<!-- research:start -->
-- **[Pose-based suspicious activity detection](https://migisha.pages.dev/work/pose-based-detection)** · *In progress*  
-  Cameras record far more than anyone can watch. I'm investigating whether computers can flag suspicious behaviour from body movement alone, and whether training on noisy real-world footage helps.
-- **[LipScribe](https://migisha.pages.dev/work/lipscribe)** · *In progress*  
-  Captions fall apart in noisy rooms, and deaf and hard-of-hearing people pay the price. On a team of six, I'm helping build a system that reads lips alongside audio.
-- **[Systematic literature review](https://migisha.pages.dev)** · *Manuscript in preparation*  
-  A PRISMA-guided review of how computer vision detects suspicious activity in surveillance video. Yes, I read all the papers.
-- **[Machine learning and the management of human teams](https://migisha.pages.dev)** · *Course paper*  
-  A philosophy paper on what happens when efficiency becomes an optimisation problem and the thing being optimised includes people.
-<!-- research:end -->
-
-## Selected work
-
-<!-- projects:start -->
-| Project | What it does | Built with |
-|---|---|---|
-| **[Data pipeline](https://migisha.pages.dev/work/data-pipeline)** | Messy data from separate sources goes in. Clean, validated, analysis-ready tables come out. No sighing at spreadsheets required. | Python · pandas · Spark |
-| **[Personal HQ](https://migisha.pages.dev/work/personal-hq)** | I plan my days in a paper notebook. This tool turned 33 pages of those notes into a working Notion system that keeps running even when my computer is off. | Python · Notion API · GitHub Actions |
-| **[AirQo PM2.5 pipeline](https://migisha.pages.dev/work/airqo-pipeline)** | On a team of two, I worked on predicting hourly air pollution in Ugandan cities from low-cost sensor data, then the model went live behind a dashboard. | Python · scikit-learn · LightGBM |
-| **[Dayglass](https://migisha.pages.dev/work/dayglass)** | A minimalist daily planner that floats on your Ubuntu desktop, with a translucent glass window, weekly objectives and a focus timer. | Python · PySide6 · SQLite |
-| **[Snake reinforcement learning](https://migisha.pages.dev/work/snake-rl)** | A neural network that taught itself Snake from scratch, going from random moves to an average of 289 food on a 20×20 board. | Python · PyTorch · Reinforcement learning |
-| **[Portfolio heartbeat](https://github.com/coleRodneyMigisha/portfolio/blob/main/.github/workflows/heartbeat.yml)** | A small automation pipeline that gives this site an actual pulse. | Python · GitHub Actions · GitHub API |
-<!-- projects:end -->
-
-More, with the full write-ups, on [migisha.pages.dev](https://migisha.pages.dev).
-
-## Recently active
-
-<!-- recent:start -->
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>3 Nov 2026</sub>
-- [`spotify-clone`](https://github.com/coleRodneyMigisha/spotify-clone) · Encore: a Spotify-style music player streaming full-length songs from Audius <sub>3 Nov 2026</sub>
-- [`snakeGame`](https://github.com/coleRodneyMigisha/snakeGame) · Snake agent trained with Double DQN reinforcement learning <sub>3 Nov 2026</sub>
-- [`intern-check-in`](https://github.com/coleRodneyMigisha/intern-check-in) <sub>2 Nov 2026</sub>
-<!-- recent:end -->
-
 ## Stack
 
 **Languages**<br>
@@ -138,4 +101,4 @@ My faith in Christ shapes how I work and how I treat people. I also once spent t
 
 ---
 
-<sub>Sections above refresh daily from my GitHub activity and [portfolio](https://github.com/coleRodneyMigisha/portfolio) through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>
+<sub>Age and activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>

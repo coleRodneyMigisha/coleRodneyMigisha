@@ -2,31 +2,27 @@
 
 Run by .github/workflows/refresh.yml once a day. Standard library only.
 
-    python3 scripts/update.py --portfolio path/to/portfolio
+    python3 scripts/update.py
 
 Needs GITHUB_TOKEN in the environment for the GraphQL API.
 """
 
 from __future__ import annotations
 
-import argparse
 import html
 import json
 import os
 import re
 import sys
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 USERNAME = "coleRodneyMigisha"
-SITE = "https://migisha.pages.dev"
 BIRTHDAY = date(2004, 5, 27)
 TZ = ZoneInfo("Africa/Kampala")
 
-FEATURED_PROJECTS = 6
-RECENT_REPOS = 4
 TOP_LANGUAGES = 6
 # Exported reports (HTML, TeX) are generated documents, not code I wrote.
 IGNORED_LANGUAGES = {"HTML", "TeX"}
@@ -75,7 +71,7 @@ query($login: String!) {
                  orderBy: {field: PUSHED_AT, direction: DESC}) {
       totalCount
       nodes {
-        name description url pushedAt isFork isArchived 
+        name isFork
         languages(first: 20, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name } }
         }
@@ -145,7 +141,6 @@ def summarise(user: dict, today: date) -> dict:
         "active_days": sum(1 for c in counts.values() if c > 0),
         "weekly": weekly,
         "languages": sorted(languages.items(), key=lambda kv: kv[1], reverse=True),
-        "recent": [r for r in repos if not r["isArchived"]][:RECENT_REPOS],
     }
 
 
@@ -244,94 +239,6 @@ def languages_svg(stats: dict, theme: dict) -> str:
     return svg_frame(width, height, theme, "Most used languages", "".join(body))
 
 
-# --------------------------------------------------------- Portfolio content
-
-def parse_frontmatter(text: str) -> dict:
-    """Read the small, predictable YAML subset the portfolio content uses."""
-    match = re.match(r"^---\n(.*?)\n---", text, re.S)
-    if not match:
-        return {}
-    data: dict = {}
-    key = None
-    for line in match.group(1).splitlines():
-        if not line.strip() or line.lstrip().startswith("#"):
-            continue
-        if not line.startswith(" "):
-            key, _, value = line.partition(":")
-            key, value = key.strip(), value.strip()
-            data[key] = [] if value in ("", "[]") else unquote(value)
-        elif line.strip().startswith("- ") and key:
-            item = line.strip()[2:]
-            if re.match(r"^\w+:\s", item):
-                # Start of a mapping item, e.g. "- label: Code".
-                k, _, v = item.partition(":")
-                data[key].append({k.strip(): unquote(v.strip())})
-            else:
-                data[key].append(unquote(item))
-        elif key and data.get(key) and isinstance(data[key][-1], dict):
-            k, _, v = line.strip().partition(":")
-            data[key][-1][k.strip()] = unquote(v.strip())
-    return data
-
-
-def unquote(value: str):
-    if value in ("true", "false"):
-        return value == "true"
-    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
-        return value[1:-1]
-    try:
-        return float(value)
-    except ValueError:
-        return value
-
-
-def load_entries(folder: Path) -> list[dict]:
-    entries = []
-    for path in sorted(folder.glob("*.md")):
-        if path.name.startswith("_"):
-            continue
-        meta = parse_frontmatter(path.read_text(encoding="utf-8"))
-        if meta.get("visible") is True and meta.get("title"):
-            entries.append(meta)
-    return sorted(entries, key=lambda m: float(m.get("order", 999)))
-
-
-def entry_link(meta: dict) -> str:
-    if meta.get("level") == "full":
-        return f"{SITE}/work/{meta['slug']}"
-    links = [l for l in meta.get("links") or [] if isinstance(l, dict) and l.get("url")]
-    return links[0]["url"] if links else SITE
-
-
-def cell(text: str) -> str:
-    return str(text).replace("|", "\\|").replace("\n", " ")
-
-
-def research_block(portfolio: Path) -> str:
-    rows = [
-        f"- **[{cell(m['title'])}]({entry_link(m)})** · *{cell(m.get('status', ''))}*  \n  {cell(m['summary'])}"
-        for m in load_entries(portfolio / "content" / "research")
-    ]
-    return "\n".join(rows)
-
-
-def projects_block(portfolio: Path) -> str:
-    rows = ["| Project | What it does | Built with |", "|---|---|---|"]
-    for m in load_entries(portfolio / "content" / "projects")[:FEATURED_PROJECTS]:
-        tags = " · ".join(t for t in (m.get("tags") or [])[:3] if isinstance(t, str))
-        rows.append(f"| **[{cell(m['title'])}]({entry_link(m)})** | {cell(m['summary'])} | {cell(tags)} |")
-    return "\n".join(rows)
-
-
-def recent_block(stats: dict) -> str:
-    rows = []
-    for repo in stats["recent"]:
-        pushed = datetime.fromisoformat(repo["pushedAt"].replace("Z", "+00:00")).astimezone(TZ)
-        about = f" · {cell(repo['description'])}" if repo.get("description") else ""
-        rows.append(f"- [`{repo['name']}`]({repo['url']}){about} <sub>{pushed:%-d %b %Y}</sub>")
-    return "\n".join(rows)
-
-
 # ------------------------------------------------------------------- README
 
 def age_on(today: date) -> int:
@@ -348,10 +255,6 @@ def replace_block(text: str, name: str, content: str, inline: bool = False) -> s
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--portfolio", type=Path, required=True, help="Checkout of the portfolio repo")
-    args = parser.parse_args()
-
     now = datetime.now(TZ)
     today = now.date()
     stats = summarise(fetch_github(), today)
@@ -363,9 +266,6 @@ def main() -> None:
 
     text = README.read_text(encoding="utf-8")
     text = replace_block(text, "age", str(age_on(today)), inline=True)
-    text = replace_block(text, "research", research_block(args.portfolio))
-    text = replace_block(text, "projects", projects_block(args.portfolio))
-    text = replace_block(text, "recent", recent_block(stats))
     text = replace_block(text, "updated", f"{today:%-d %B %Y}", inline=True)
     README.write_text(text, encoding="utf-8")
     print(f"Refreshed: {stats['contributions']} contributions, {stats['repos']} repos, streak {stats['streak']}.")
