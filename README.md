@@ -2,7 +2,7 @@
 
 **Machine learning, data and automation.** I build systems that take messy data, make sense of it, and put a clean interface on top.
 
-Computer Science, Uganda Christian University · AI and Robotics track · Kampala, Uganda
+Computer Science, Uganda Christian University · AI and Robotics track · Mukono, Uganda
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-migisha.pages.dev-24292f?style=flat-square&logo=googlechrome&logoColor=white)](https://migisha.pages.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cole_Rodney_Migisha-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cole-rodney-migisha-153aaa35a)
@@ -17,7 +17,7 @@ Computer Science, Uganda Christian University · AI and Robotics track · Kampal
 
 I'm a <!-- age:start -->22<!-- age:end -->-year-old Ugandan who grew up asking nosy questions. How does a TV broadcast end up in your living room? How does a bank know what's in your account? Nearly everything I loved led back to a computer, and I couldn't pick just one corner of it, so I picked computer science.
 
-I'm in my third year of a BSc at Uganda Christian University, on the AI and Robotics track, with data science alongside it (you can't perfect automation without understanding the data underneath it). Current CGPA: **4.73 / 5**.
+I'm in my third year of this Bachelors of Science  at Uganda Christian University, on the AI and Robotics track, with data science alongside it (you can't perfect automation without understanding the data underneath it). Current CGPA: **4.73 / 5**.
 
 My work usually starts with a reason, and the next few hours are me making sure I don't lose sight of it while the thing takes shape. I care about *why* something works, and I like finishing the job: a model that goes live behind a dashboard, not one that stays in a notebook.
 
@@ -106,7 +106,7 @@ Currently learning: Docker, MLflow and cloud deployment.
 
 ## Beyond the code
 
-My faith in Christ shapes how I work and how I treat people. I also once spent two days hunting a bug that turned out to be a single missing double quote at the top of a file, which is why I now read the first line before the stack trace.
+My faith in Christ shapes how I work and how I treat people. 
 
 ---
 
