@@ -1,73 +1,141 @@
-# Hi, I'm Cole 👋
+# Cole Rodney Migisha
 
-I'm a 22-year-old Computer Science student from Uganda, building steady depth in Python, with a focus on data science, machine learning, AI and automation. I care about *why* things work, and I like turning ideas into things people can actually see and use, not just notebooks.
+**Machine learning, data and automation.** I build systems that take messy data, make sense of it, and put a clean interface on top.
 
-I'm in Year 3 of my BSc Computer Science at **Uganda Christian University (UCU), Mukono**, on the AI and Robotics track, and I'm also auditing Data Science. I'm based around Mukono, Entebbe and Kampala.
+Computer Science, Uganda Christian University · AI and Robotics track · Kampala, Uganda
 
-## 📍 Right now
+[![Portfolio](https://img.shields.io/badge/Portfolio-migisha.pages.dev-24292f?style=flat-square&logo=googlechrome&logoColor=white)](https://migisha.pages.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Cole_Rodney_Migisha-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cole-rodney-migisha-153aaa35a)
+[![Email](https://img.shields.io/badge/Email-crmigisha@gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:crmigisha@gmail.com)
+[![CV](https://img.shields.io/badge/CV-Download-24292f?style=flat-square&logo=readthedocs&logoColor=white)](https://migisha.pages.dev/cole_rodney_migisha_cv.pdf)
+[![Zindi](https://img.shields.io/badge/Zindi-cole-24292f?style=flat-square&logo=kaggle&logoColor=white)](https://zindi.world/users/cole)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-24292f?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/DQXxBJcpeB/)
 
-- **Public Relations Manager**, Honours College, UCU
-- **Class Representative**, Computer Science, UCU
-- Previously **Web Designer** at Makerere University Innovation Pod (Feb to Sep 2024)
-- Recently **IT Intern**, Uganda Civil Aviation Authority, Entebbe (Apr to Aug 2026)
+> **Open to internships and entry-level roles** in machine learning, data engineering and automation. The quickest way to reach me is [email](mailto:crmigisha@gmail.com).
 
-## 🔭 What I'm working on
+## About
 
-- **Data cleaning, feature engineering and classical ML:** scikit-learn, LightGBM, random forests, logistic regression
-- **Computer vision with PyTorch:** especially suspicious pose and behaviour detection in security video
-- **Data engineering habits:** pandas, DuckDB, Parquet, Airflow and ETL pipelines
-- **Reproducible projects:** clean structure and proper GitHub workflows
-- **Zindi challenges:** aiming for one a week (financial stress prediction and Bias Bounty so far)
-- **Idea → working system → clean presentation**, like my terminal Wordle that became a custom-styled Streamlit app
+I'm a <!-- age:start -->22<!-- age:end -->-year-old Ugandan who grew up asking nosy questions. How does a TV broadcast end up in your living room? How does a bank know what's in your account? Nearly everything I loved led back to a computer, and I couldn't pick just one corner of it, so I picked computer science.
 
-## 🤝 Collaborating and learning
+I'm in my third year of a BSc at Uganda Christian University, on the AI and Robotics track, with data science alongside it (you can't perfect automation without understanding the data underneath it). Current CGPA: **4.73 / 5**.
 
-- Keen to collaborate on **system development and automation**
-- Happy to help with **Python automation**
-- Looking to grow in **JavaScript** (design and responsiveness) and **Java** (application development)
-- Ask me about **LeetCode** 🧩
+My work usually starts with a reason, and the next few hours are me making sure I don't lose sight of it while the thing takes shape. I care about *why* something works, and I like finishing the job: a model that goes live behind a dashboard, not one that stays in a notebook.
 
-## 💻 Tech stack
+## What I bring
 
-Python is my main language. The rest is what I use to build, ship and present.
+- **Machine learning.** Feature engineering and classical models on messy, real-world data (scikit-learn, LightGBM), and computer vision with PyTorch and OpenCV.
+- **Data engineering.** Pipelines that turn separate, untidy sources into validated, analysis-ready tables, with pandas, Spark, DuckDB, Parquet and Airflow, and tests that prove it.
+- **Automation.** Scheduled jobs and small services that keep running when nobody is watching, built on GitHub Actions, FastAPI and the APIs of the tools people already use.
+- **Interfaces and design.** React and PySide6 on the front, and Figma, Illustrator and Inkscape for the visuals. I care about how the work looks as much as how it runs.
 
-| | |
-|---|---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E) ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white) |
-| **Data & ML** | ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?logo=plotly&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FE4B4B?logo=streamlit&logoColor=white) |
-| **Web & tools** | ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61DAFB) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-000000?logo=netlify&logoColor=00C7B7) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
-| **Design** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white) ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?logo=adobeillustrator&logoColor=white) ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?logo=adobephotoshop&logoColor=white) ![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?logo=adobelightroom&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=white) |
+## Experience
 
-## 📊 GitHub stats
+| Role | Where | When |
+|---|---|---|
+| **IT Intern** | Uganda Civil Aviation Authority, Entebbe | Apr – Aug 2026 |
+| **Public Relations Manager** | Honours College, Uganda Christian University | Nov 2025 – Nov 2026 |
+| **Class Representative** | Computer Science, Uganda Christian University | Current |
+| **Web Designer and Manager (Intern)** | Makerere University Innovation Pod | Feb – Sep 2024 |
 
-<p align="center">
-  <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=coleRodneyMigisha&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
-  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coleRodneyMigisha&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&cache_seconds=86400" />
-</p>
+At the Civil Aviation Authority I built a web-based passenger complaints system that brings passengers, service providers and Authority staff into one workflow, plus a Java replica of the airport operational database for practising flight record amendments.
 
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=coleRodneyMigisha&theme=tokyonight&hide_border=true" />
-</p>
+## Recognition
 
-## 🏆 Trophies
+- **Bronze Honour**, International Youth Math Challenge 2025
+- **National mathematics camp invite**, where the country's top 100 students were tested to pick a team of 15
+- **Africa's Talking hackathon**, where my team built NetDoctor, a network diagnostics platform. I owned testing and quality.
 
-<p align="center">
-  <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=coleRodneyMigisha&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
-</p>
+## Research
 
-## 🌐 Connect
+<!-- research:start -->
+- **[Pose-based suspicious activity detection](https://migisha.pages.dev/work/pose-based-detection)** · *In progress*  
+  Cameras record far more than anyone can watch. I'm investigating whether computers can flag suspicious behaviour from body movement alone, and whether training on noisy real-world footage helps.
+- **[LipScribe](https://migisha.pages.dev/work/lipscribe)** · *In progress*  
+  Captions fall apart in noisy rooms, and deaf and hard-of-hearing people pay the price. On a team of six, I'm helping build a system that reads lips alongside audio.
+- **[Systematic literature review](https://migisha.pages.dev)** · *Manuscript in preparation*  
+  A PRISMA-guided review of how computer vision detects suspicious activity in surveillance video. Yes, I read all the papers.
+- **[Machine learning and the management of human teams](https://migisha.pages.dev)** · *Course paper*  
+  A philosophy paper on what happens when efficiency becomes an optimisation problem and the thing being optimised includes people.
+<!-- research:end -->
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cole-rodney-migisha-153aaa35a)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kingcole1205@gmail.com)
+## Selected work
 
-## ✨ A bit more about me
+<!-- projects:start -->
+| Project | What it does | Built with |
+|---|---|---|
+| **[Data pipeline](https://migisha.pages.dev/work/data-pipeline)** | Messy data from separate sources goes in. Clean, validated, analysis-ready tables come out. No sighing at spreadsheets required. | Python · pandas · Spark |
+| **[Personal HQ](https://migisha.pages.dev/work/personal-hq)** | I plan my days in a paper notebook. This tool turned 33 pages of those notes into a working Notion system that keeps running even when my computer is off. | Python · Notion API · GitHub Actions |
+| **[AirQo PM2.5 pipeline](https://migisha.pages.dev/work/airqo-pipeline)** | On a team of two, I worked on predicting hourly air pollution in Ugandan cities from low-cost sensor data, then the model went live behind a dashboard. | Python · scikit-learn · LightGBM |
+| **[Dayglass](https://migisha.pages.dev/work/dayglass)** | A minimalist daily planner that floats on your Ubuntu desktop, with a translucent glass window, weekly objectives and a focus timer. | Python · PySide6 · SQLite |
+| **[Snake reinforcement learning](https://migisha.pages.dev/work/snake-rl)** | A neural network that taught itself Snake from scratch, going from random moves to an average of 289 food on a 20×20 board. | Python · PyTorch · Reinforcement learning |
+| **[Portfolio heartbeat](https://github.com/coleRodneyMigisha/portfolio/blob/main/.github/workflows/heartbeat.yml)** | A small automation pipeline that gives this site an actual pulse. | Python · GitHub Actions · GitHub API |
+<!-- projects:end -->
 
-- I'm design-conscious: clean interfaces, visual identity and clear communication matter to me as much as the code behind them.
-- My faith in Christ shapes how I work and how I treat people.
-- **Fun fact:** I once spent two days hunting a bug that turned out to be a single missing double quote at the top of the file. It's the reason I now read the first line before the stack trace. 😅
+More, with the full write-ups, on [migisha.pages.dev](https://migisha.pages.dev).
+
+## Recently active
+
+<!-- recent:start -->
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>3 Nov 2026</sub>
+- [`spotify-clone`](https://github.com/coleRodneyMigisha/spotify-clone) · Encore: a Spotify-style music player streaming full-length songs from Audius <sub>3 Nov 2026</sub>
+- [`snakeGame`](https://github.com/coleRodneyMigisha/snakeGame) · Snake agent trained with Double DQN reinforcement learning <sub>3 Nov 2026</sub>
+- [`intern-check-in`](https://github.com/coleRodneyMigisha/intern-check-in) <sub>2 Nov 2026</sub>
+<!-- recent:end -->
+
+## Stack
+
+**Languages**<br>
+![Python](https://img.shields.io/badge/Python-24292f?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-24292f?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-24292f?style=flat-square&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-24292f?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-24292f?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-24292f?style=flat-square&logo=cplusplus&logoColor=white)
+
+**Machine learning and data**<br>
+![PyTorch](https://img.shields.io/badge/PyTorch-24292f?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-24292f?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-24292f?style=flat-square&logo=opencv&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-24292f?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-24292f?style=flat-square&logo=numpy&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-24292f?style=flat-square&logo=apachespark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-24292f?style=flat-square&logo=apacheairflow&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-24292f?style=flat-square&logo=duckdb&logoColor=white)
+
+**Backend, frontend and tooling**<br>
+![FastAPI](https://img.shields.io/badge/FastAPI-24292f?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-24292f?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-24292f?style=flat-square&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292f?style=flat-square&logo=postgresql&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-24292f?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-24292f?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-24292f?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-24292f?style=flat-square&logo=linux&logoColor=white)
+
+**Design**<br>
+![Figma](https://img.shields.io/badge/Figma-24292f?style=flat-square&logo=figma&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-24292f?style=flat-square&logo=adobeillustrator&logoColor=white)
+![Inkscape](https://img.shields.io/badge/Inkscape-24292f?style=flat-square&logo=inkscape&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-24292f?style=flat-square&logo=blender&logoColor=white)
+
+Currently learning: Docker, MLflow and cloud deployment.
+
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Contributions in the past year, current streak, active days and public repositories, with a weekly contributions chart" src="assets/stats-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img alt="Most used languages across public repositories" src="assets/languages-light.svg" width="100%">
+</picture>
+
+## Beyond the code
+
+My faith in Christ shapes how I work and how I treat people. I also once spent two days hunting a bug that turned out to be a single missing double quote at the top of a file, which is why I now read the first line before the stack trace.
 
 ---
 
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=coleRodneyMigisha&style=flat-square&color=7aa2f7" />
-</p>
+<sub>Sections above refresh daily from my GitHub activity and [portfolio](https://github.com/coleRodneyMigisha/portfolio) through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>

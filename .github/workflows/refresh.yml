@@ -1,0 +1,58 @@
+name: Refresh profile
+
+on:
+  schedule:
+    # Every day at 03:00 UTC (06:00 in Kampala).
+    - cron: "0 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/refresh.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Check out portfolio content
+        uses: actions/checkout@v4
+        with:
+          repository: coleRodneyMigisha/portfolio
+          path: _portfolio
+          sparse-checkout: content
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild README and cards
+        env:
+          # Set a PROFILE_TOKEN secret (a fine-grained token with read access) to
+          # also count private contributions. Otherwise only public work is counted.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update.py --portfolio _portfolio
+
+      - name: Commit if anything changed
+        run: |
+          git add README.md assets
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile"
+          git push
