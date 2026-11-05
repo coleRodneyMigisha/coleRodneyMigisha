@@ -48,10 +48,10 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ## Recently active
 
 <!-- recent:start -->
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>3 Nov 2026</sub>
-- [`spotify-clone`](https://github.com/coleRodneyMigisha/spotify-clone) · Encore: a Spotify-style music player streaming full-length songs from Audius <sub>3 Nov 2026</sub>
-- [`snakeGame`](https://github.com/coleRodneyMigisha/snakeGame) · Snake agent trained with Double DQN reinforcement learning <sub>3 Nov 2026</sub>
-- [`intern-check-in`](https://github.com/coleRodneyMigisha/intern-check-in) <sub>2 Nov 2026</sub>
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>5 Nov 2026</sub>
+- [`deepvision-study`](https://github.com/coleRodneyMigisha/deepvision-study) <sub>5 Nov 2026</sub>
+- [`deepvision-study-frontend`](https://github.com/coleRodneyMigisha/deepvision-study-frontend) <sub>5 Nov 2026</sub>
+- [`cv_project_LipScribe`](https://github.com/coleRodneyMigisha/cv_project_LipScribe) <sub>4 Nov 2026</sub>
 <!-- recent:end -->
 
 ## Stack
@@ -110,4 +110,4 @@ My faith in Christ shapes how I work and how I treat people.
 
 ---
 
-<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->3 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->5 November 2026<!-- updated:end -->.</sub>
