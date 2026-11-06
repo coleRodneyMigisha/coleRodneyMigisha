@@ -48,10 +48,10 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ## Recently active
 
 <!-- recent:start -->
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>5 Nov 2026</sub>
-- [`deepvision-study`](https://github.com/coleRodneyMigisha/deepvision-study) <sub>5 Nov 2026</sub>
-- [`deepvision-study-frontend`](https://github.com/coleRodneyMigisha/deepvision-study-frontend) <sub>5 Nov 2026</sub>
-- [`cv_project_LipScribe`](https://github.com/coleRodneyMigisha/cv_project_LipScribe) <sub>4 Nov 2026</sub>
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>6 Nov 2026</sub>
+- [`deepvision-study`](https://github.com/coleRodneyMigisha/deepvision-study) <sub>6 Nov 2026</sub>
+- [`deepvision-study-frontend`](https://github.com/coleRodneyMigisha/deepvision-study-frontend) <sub>6 Nov 2026</sub>
+- [`dsc3103-project-week-2`](https://github.com/coleRodneyMigisha/dsc3103-project-week-2) <sub>6 Nov 2026</sub>
 <!-- recent:end -->
 
 ## Stack
@@ -110,4 +110,4 @@ My faith in Christ shapes how I work and how I treat people.
 
 ---
 
-<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->5 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->6 November 2026<!-- updated:end -->.</sub>
