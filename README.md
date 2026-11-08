@@ -48,9 +48,9 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ## Recently active
 
 <!-- recent:start -->
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>8 Nov 2026</sub>
 - [`notion-personal-hq`](https://github.com/coleRodneyMigisha/notion-personal-hq) <sub>7 Nov 2026</sub>
 - [`dayglass`](https://github.com/coleRodneyMigisha/dayglass) <sub>7 Nov 2026</sub>
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>7 Nov 2026</sub>
 - [`deepvision-study`](https://github.com/coleRodneyMigisha/deepvision-study) <sub>6 Nov 2026</sub>
 <!-- recent:end -->
 
@@ -110,4 +110,4 @@ My faith in Christ shapes how I work and how I treat people.
 
 ---
 
-<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->7 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->8 November 2026<!-- updated:end -->.</sub>
