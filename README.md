@@ -48,10 +48,10 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ## Recently active
 
 <!-- recent:start -->
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>15 Nov 2026</sub>
-- [`cv_project_LipScribe`](https://github.com/coleRodneyMigisha/cv_project_LipScribe) <sub>13 Nov 2026</sub>
+- [`cv_project_LipScribe`](https://github.com/coleRodneyMigisha/cv_project_LipScribe) <sub>16 Nov 2026</sub>
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>16 Nov 2026</sub>
+- [`airqo_cole_charis_assgnmnt`](https://github.com/coleRodneyMigisha/airqo_cole_charis_assgnmnt) <sub>16 Nov 2026</sub>
 - [`study-room-frontend`](https://github.com/coleRodneyMigisha/study-room-frontend) <sub>12 Nov 2026</sub>
-- [`tea`](https://github.com/coleRodneyMigisha/tea) <sub>11 Nov 2026</sub>
 <!-- recent:end -->
 
 ## Stack
@@ -110,4 +110,4 @@ My faith in Christ shapes how I work and how I treat people.
 
 ---
 
-<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->15 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->16 November 2026<!-- updated:end -->.</sub>
