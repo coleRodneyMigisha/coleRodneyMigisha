@@ -17,7 +17,7 @@ Computer Science, Uganda Christian University · AI and Robotics track · Mukono
 
 I'm a <!-- age:start -->22<!-- age:end -->-year-old Ugandan who grew up asking nosy questions. How does a TV broadcast end up in your living room? How does a bank know what's in your account? Nearly everything I loved led back to a computer, and I couldn't pick just one corner of it, so I picked computer science.
 
-I'm in my third year of this Bachelors of Science  at Uganda Christian University, on the AI and Robotics track, with data science alongside it (you can't perfect automation without understanding the data underneath it). Current CGPA: **4.73 / 5**.
+I'm in my third year of a Bachelor of Science at Uganda Christian University, on the AI and Robotics track, with data science alongside it (you can't perfect automation without understanding the data underneath it). Current CGPA: **4.73 / 5**.
 
 My work usually starts with a reason, and the next few hours are me making sure I don't lose sight of it while the thing takes shape. I care about *why* something works, and I like finishing the job: a model that goes live behind a dashboard, not one that stays in a notebook.
 
@@ -26,7 +26,7 @@ My work usually starts with a reason, and the next few hours are me making sure 
 - **Machine learning.** Feature engineering and classical models on messy, real-world data (scikit-learn, LightGBM), and computer vision with PyTorch and OpenCV.
 - **Data engineering.** Pipelines that turn separate, untidy sources into validated, analysis-ready tables, with pandas, Spark, DuckDB, Parquet and Airflow, and tests that prove it.
 - **Automation.** Scheduled jobs and small services that keep running when nobody is watching, built on GitHub Actions, FastAPI and the APIs of the tools people already use.
-- **Interfaces and design.** React and PySide6 on the front, and Figma, Illustrator and Inkscape for the visuals. I care about how the work looks as much as how it runs.
+- **Interfaces and design.** React and Next.js on the web, PySide6 and GTK 4 with Rust on the desktop, and Figma, Illustrator and Inkscape for the visuals. I care about how the work looks as much as how it runs.
 
 ## Experience
 
@@ -63,6 +63,7 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ![TypeScript](https://img.shields.io/badge/TypeScript-24292f?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-24292f?style=flat-square&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-24292f?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-24292f?style=flat-square&logo=rust&logoColor=white)
 
 **Machine learning and data**<br>
 ![PyTorch](https://img.shields.io/badge/PyTorch-24292f?style=flat-square&logo=pytorch&logoColor=white)
@@ -78,6 +79,7 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ![FastAPI](https://img.shields.io/badge/FastAPI-24292f?style=flat-square&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-24292f?style=flat-square&logo=django&logoColor=white)
 ![React](https://img.shields.io/badge/React-24292f?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-24292f?style=flat-square&logo=nextdotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292f?style=flat-square&logo=postgresql&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-24292f?style=flat-square&logo=pytest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-24292f?style=flat-square&logo=githubactions&logoColor=white)
