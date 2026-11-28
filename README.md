@@ -48,7 +48,7 @@ At the Civil Aviation Authority I built a web-based passenger complaints system 
 ## Recently active
 
 <!-- recent:start -->
-- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>27 Nov 2026</sub>
+- [`portfolio`](https://github.com/coleRodneyMigisha/portfolio) · my portfolio <sub>28 Nov 2026</sub>
 - [`cv_project_LipScribe`](https://github.com/coleRodneyMigisha/cv_project_LipScribe) · LipScribe: lip reading alongside audio for captions that hold up in noisy rooms (team project) <sub>26 Nov 2026</sub>
 - [`study-room-frontend`](https://github.com/coleRodneyMigisha/study-room-frontend) · StudyRoom: step-through lessons, browser labs, mock exams and an AI study buddy for four university course units <sub>24 Nov 2026</sub>
 - [`ghostmd`](https://github.com/coleRodneyMigisha/ghostmd) · Keyboard-first Markdown reader and editor for Linux, in Rust and GTK 4 <sub>22 Nov 2026</sub>
@@ -112,4 +112,4 @@ My faith in Christ shapes how I work and how I treat people.
 
 ---
 
-<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->27 November 2026<!-- updated:end -->.</sub>
+<sub>Age, recent activity and the activity cards refresh daily through a [GitHub Action](.github/workflows/refresh.yml). Last refreshed <!-- updated:start -->28 November 2026<!-- updated:end -->.</sub>
